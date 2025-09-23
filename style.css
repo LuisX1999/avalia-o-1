@@ -1,0 +1,130 @@
+body{
+    background-color: white;
+    padding-bottom: 130px
+}
+body h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    list-style: none;
+    padding: 0;    
+    border-radius: 5px;
+    height: 40px;
+}
+
+body nav ul li {
+    padding: 0 100px; 
+}
+
+
+.logo{
+    background-color: #444;
+    width: 102%;
+    margin-left: -15px;
+    margin-right: 20px;
+    height: 130px;
+    margin-top: -22px;
+    margin-bottom: -15px;
+}
+
+.logo h1{
+    padding: 50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.leon{
+    display: flex;
+    margin-top: -160px;
+    margin-left: 80%;
+}
+.ada{
+    display: flex;
+    margin-top: -133px;
+    margin-left: 10%;
+}
+
+
+body nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+body nav ul li a:hover {
+    background-color: #555;
+    box-shadow: -2px 2px #777;
+}
+.main-content {
+    text-align: center;
+    margin: 0px 20%
+}
+.main-content p{
+    font-size: 20px;
+}
+footer{
+    height: 60px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(#555);
+    width: 110%;
+    margin: -15px;
+    padding: 30px;
+    justify-content: center;
+}
+footer div{
+    margin-top: -65px;
+    padding: 30px;
+}
+.links a{
+    color: rgb(224, 220, 220);
+    text-decoration: none;
+}
+
+.about p{
+    color: rgb(224, 220, 220);
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: lime;
+}
+footer .contact form input,
+footer .contact form button {
+    padding: 10px;
+    width: 25%;
+    box-sizing: border-box;
+}
+footer .contact form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer .contact form button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    footer div {
+        display: block;
+        margin-bottom: 15px;
+    }
+}
