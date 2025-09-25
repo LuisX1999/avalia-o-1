@@ -33,9 +33,9 @@ body nav ul li {
     margin-bottom: -15px;
 }
 .video {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .logo h1{
     padding: 50px;
