@@ -32,7 +32,11 @@ body nav ul li {
     margin-top: -22px;
     margin-bottom: -15px;
 }
-
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .logo h1{
     padding: 50px;
     color: white;
